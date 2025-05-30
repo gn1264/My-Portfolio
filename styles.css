@@ -1,0 +1,90 @@
+/* Custom Styles for Portfolio */
+
+/* General Styles */
+body {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  /* Header Styles */
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    transition: background-color 0.3s;
+  }
+  
+  header:hover {
+    background-color: #2563eb;
+  }
+  
+  /* Navigation Links */
+  nav ul li a {
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  /* About Section Image */
+  #about img {
+    max-width: 150px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  #about img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Project Cards */
+  .grid div {
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .grid div:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Button Styles */
+  button {
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Footer Styles */
+  footer p {
+    font-size: 14px;
+    color: #9ca3af;
+  }
+  
+  footer p a {
+    color: #60a5fa;
+    transition: color 0.3s;
+  }
+  
+  footer p a:hover {
+    color: #bfdbfe;
+  }
+  
+  /* Contact Form Styles */
+  form input,
+  form textarea {
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  form input:focus,
+  form textarea:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 8px rgba(37, 99, 235, 0.5);
+  }
+  
+  /* Smooth Scrolling for Anchor Links */
+  html {
+    scroll-behavior: smooth;
+  }
+  
