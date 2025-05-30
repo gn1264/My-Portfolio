@@ -21,11 +21,11 @@ A clean, responsive portfolio website built using **HTML**, **Tailwind CSS**, an
 
 ## 📁 Project Structure
 Portfolio/
-├── index.html # Main HTML file (can be named portfolio.html)
-├── styles.css # Custom styles (optional)
-├── script.js # JavaScript for interactivity (optional)
-├── Myself.png # Profile picture
-└── README.md # Project documentation
+-index.html # Main HTML file (can be named portfolio.html)
+-styles.css # Custom styles (optional)
+-script.js # JavaScript for interactivity (optional)
+-Myself.png # Profile picture
+-README.md # Project documentation
 
 ## 📦 How to Run Locally
 
@@ -35,6 +35,5 @@ Portfolio/
    git clone https://github.com/your-username/your-repo-name.git
    cd your-repo-name
 ## How to run
-start portfolio.html   # On Windows
-# OR
-open portfolio.html    # On macOS
+-start portfolio.html   # On Windows
+-open portfolio.html    # On macOS
